@@ -701,6 +701,9 @@ footer .footer-below {
 /* Phone */
 
 @media (max-width: 768px) {
+    .navbar-default .navbar-collapse {
+        background: rgba(40, 40, 40, 0.99);
+    }
     h2.occupation {
         font-size: 4rem;
     }
