@@ -615,13 +615,6 @@ header {
     height: 95vh;
 }
 
-@media (min-width: 768px) {
-    header .container {
-        padding-top: 150px;
-        padding-bottom: 100px;
-    }
-}
-
 header .intro-text .skills {
     font-size: 2rem;
     color: #282828
@@ -683,3 +676,54 @@ footer .footer-above {
 footer .footer-below {
     background-color: #191919;
 }
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    header .container {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+
+/* Phone */
+
+@media (max-width: 768px) {
+    h2.occupation {
+        font-size: 4rem;
+    }
+    header {
+        height: auto;
+    }
+    header img.img-responsive {
+        height: 30vh;
+    }
+    header .intro-text .skills {
+        font-size: 1.6rem;
+    }
+    .carousel-cell {
+        width: 100%;
+    }
+}
+
+
+/* Tablet */
+
+@media (max-width: 992px) {}
+
+
+/* Laptop */
+
+@media (max-width: 1200px) {}
